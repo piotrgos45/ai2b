@@ -1,0 +1,39 @@
+.details-container {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 25px;
+  margin: 20px 0;
+  max-width: 320px;
+  box-sizing: border-box;
+}
+
+.person h2 {
+  color: #333;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #efefef;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+}
+
+dl.address {
+  background-color: #fafafa;
+  margin: 10px -25px 0 -25px;
+  padding: 10px 25px;
+  border-radius: 0 0 8px 8px;
+}
